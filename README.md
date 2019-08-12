@@ -21,7 +21,7 @@ $ gitget https://github.com/boppreh/keyboard/tree/master/examples
 ## Release History
 
 
--   1.0.0
+-   1.0.3
     -   The first release
 
 ## Meta

@@ -9,7 +9,7 @@ MAINTAINER = "André P. Santos"
 MAINTAINER_EMAIL = "andreztz@gmail.com"
 URL = "https://github.com/andreztz/gitget"
 REQUIRES_PYTHON = ">=3.6.0"
-VERSION = "1.0.2"
+VERSION = "1.0.3"
 
 
 def readme():
