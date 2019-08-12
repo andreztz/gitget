@@ -1,5 +1,5 @@
 from setuptools import setup
-from setuptools import find_packages, find_namespace_packages
+from setuptools import find_packages
 
 
 NAME = "gitget"
@@ -9,7 +9,7 @@ MAINTAINER = "André P. Santos"
 MAINTAINER_EMAIL = "andreztz@gmail.com"
 URL = "https://github.com/andreztz/gitget"
 REQUIRES_PYTHON = ">=3.6.0"
-VERSION = "1.0.1"
+VERSION = "1.0.2"
 
 
 def readme():
@@ -35,11 +35,9 @@ package = {
     "python_requires": REQUIRES_PYTHON,
     "url": URL,
     "license": "my_license",
-    # "package_dir": {"": "src"},
-    # "packages": find_namespace_packages(where="src"),
     "packages": find_packages(),
     "install_requires": required(),
-    "entry_points": {"console_scripts": ["gitget=src.__main__:main"]},
+    "entry_points": {"console_scripts": ["gitget=gitget.__main__:main"]},
     "classifiers": [
         # Full list: https://pypi.python.org/pypi?%3Aaction=list_classifiers
         "Development Status :: 1 - Planning",
