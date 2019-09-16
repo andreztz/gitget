@@ -2,6 +2,7 @@
 Download a specific folder from a github repo:
     gitget.py https://github.com/boppreh/keyboard/tree/master/examples
 """
+__author__ = 'Divyansh Prakash'
 
 import sys
 import subprocess
